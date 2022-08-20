@@ -98,6 +98,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "ffmpeg"
+version = "1.4"
+description = "ffmpeg python package url [https://github.com/jiashaokun/ffmpeg]"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "flask"
 version = "2.2.1"
 description = "A simple framework for building complex web applications."
@@ -282,6 +290,17 @@ python-versions = "~=3.7"
 [package.dependencies]
 pyaes = "1.6.1"
 pysocks = "1.7.1"
+
+[[package]]
+name = "pyromod"
+version = "1.5"
+description = "A monkeypatcher add-on for Pyrogram"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyrogram = ">=1.0.0"
 
 [[package]]
 name = "pysocks"
@@ -483,6 +502,14 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [[package]]
+name = "youtube-dl"
+version = "2021.12.17"
+description = "YouTube video downloader"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "zipp"
 version = "3.8.1"
 description = "Backport of pathlib-compatible object wrapper for zip files"
@@ -497,7 +524,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "09d74740133e61109e0c1736351505f79924719a9155f3a996cab6eb35b1f630"
+content-hash = "9e744147a4cf163a6661a86e96ffbc0bd1f5b51677dd10417ce7d950c240bb1d"
 
 [metadata.files]
 aiohttp = []
@@ -509,6 +536,7 @@ charset-normalizer = []
 click = []
 colorama = []
 debugpy = []
+ffmpeg = []
 flask = []
 frozenlist = []
 idna = []
@@ -526,6 +554,7 @@ pyaes = []
 pyflakes = []
 pyparsing = []
 pyrogram = []
+pyromod = []
 pysocks = []
 python-lsp-jsonrpc = []
 python-lsp-server = []
@@ -541,4 +570,5 @@ werkzeug = []
 whatthepatch = []
 yapf = []
 yarl = []
+youtube-dl = []
 zipp = []

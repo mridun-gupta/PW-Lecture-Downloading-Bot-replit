@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.ffmpeg.bin
     pkgs.python38Full
   ];
   env = {
@@ -8,7 +9,7 @@
       pkgs.stdenv.cc.cc.lib
       pkgs.zlib
       # Needed for pygame
-      pkgs.glib
+      pkgs.ffmpeg
       # Needed for matplotlib
       pkgs.xorg.libX11
     ];
