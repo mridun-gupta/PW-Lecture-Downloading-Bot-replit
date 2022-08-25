@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.python38Packages.yt-dlp
+    pkgs.python39Packages.poetry
     pkgs.ffmpeg.bin
     pkgs.python38Full
   ];

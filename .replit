@@ -2,10 +2,11 @@
 # run = ["python", "main.py"]
 # The primary language of the repl. There can be others, though!
 language = "python3"
-entrypoint = "bot.py"
+  #entrypoint = "main-stream.py"
+  entrypoint = "maintenance.py"
 # A list of globs that specify which files and directories should
 # be hidden in the workspace.
-hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc", "PW Lecture DL Bot.session", "PW Lecture DL Bot.session-journal"]
 
 # Specifies which nix channel to use when building the environment.
 [nix]

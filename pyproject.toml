@@ -1,18 +1,17 @@
 [tool.poetry]
-name = "python-template"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "PhysicsWallah Lecture Downloading Bot"
+version = "1.0"
+description = "This tool is designed to help students to download the video lectures from PhysicsWallah."
+authors = ["Mridun Gupta <gmridun@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.9"
-numpy = "^1.22.2"
-replit = "^3.2.4"
-Flask = "^2.2.0"
+numpy = "^1.22.2" # incase using it on replit
 Pyrogram = "^2.0.41"
 pyromod = "^1.5"
 youtube_dl = "^2021.12.17"
-ffmpeg = "^1.4"
+replit = "^3.2.4"
+Flask = "^2.2.2"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
